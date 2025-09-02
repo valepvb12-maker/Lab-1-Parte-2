@@ -8,6 +8,7 @@ def home(request):
     #return render(request, 'home.html') #render me permite usar html, buscandolo en las carpetas. 
     return render (request, 'home.html', {'name': 'Valentina Padierna'}) 
 def about(request):
-    return HttpResponse("<h1>Welcome to About Page</h1>")
+    #return HttpResponse("<h1>Welcome to About Page</h1>")
+    return render(request, 'about.html')
      
 
