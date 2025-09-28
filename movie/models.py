@@ -1,9 +1,10 @@
 from django.db import models
 
-# Create your models here.
-
 class Movie(models.Model):
     title = models.CharField(max_length=100)  
     description = models.CharField(max_length=250)          
     image = models.ImageField(upload_to='movie/images/')  
-    url = models.URLField(blank=True)        
+    url = models.URLField(blank=True)  
+
+    year = models.IntegerField(null=True, blank=True)  # 👈 nuevo campo
+    genre = models.CharField(max_length=50, null=True, blank=True)  # 👈 nuevo campo

@@ -1,0 +1,112 @@
+[
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "Shrek",
+      "description": "Un ogro verde vive aventuras con un burro parlante.",
+      "image": "shrek.jpg",
+      "url": "",
+      "year": 2001,
+      "genre": "AnimaciÃ³n"
+    }
+  },
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "Ralph",
+      "description": "Ralph, un villano de videojuegos, sueÃ±a con ser un hÃ©roe.",
+      "image": "https://example.com/ralph.jpg",
+      "url": "",
+      "year": 2012,
+      "genre": "AnimaciÃ³n"
+    }
+  },
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "Campanita",
+      "description": "La curiosa hada Campanita descubre sus talentos y vive aventuras.",
+      "image": "campanita.jpg",
+      "url": "",
+      "year": 2008,
+      "genre": "AnimaciÃ³n"
+    }
+  },
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "Toy Story",
+      "description": "Los juguetes de Andy cobran vida cuando no los ve.",
+      "image": "toystory.jpg",
+      "url": "",
+      "year": 1995,
+      "genre": "AnimaciÃ³n"
+    }
+  },
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "Frozen",
+      "description": "Dos hermanas enfrentan el poder del hielo y descubren el amor verdadero.",
+      "image": "frozen.jpg",
+      "url": "",
+      "year": 2013,
+      "genre": "AnimaciÃ³n"
+    }
+  },
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "Avengers",
+      "description": "Un grupo de superhÃ©roes se une para salvar la Tierra.",
+      "image": "avengers.jpg",
+      "url": "",
+      "year": 2012,
+      "genre": "AcciÃ³n"
+    }
+  },
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "Harry Potter",
+      "description": "Un niÃ±o mago vive aventuras en Hogwarts.",
+      "image": "harrypotter.jpg",
+      "url": "",
+      "year": 2001,
+      "genre": "FantasÃ­a"
+    }
+  },
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "Titanic",
+      "description": "Una historia de amor a bordo de un barco condenado.",
+      "image": "titanic.jpg",
+      "url": "",
+      "year": 1997,
+      "genre": "Romance"
+    }
+  },
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "Jurassic Park",
+      "description": "Un parque con dinosaurios clonados se sale de control.",
+      "image": "jurassic.jpg",
+      "url": "",
+      "year": 1993,
+      "genre": "Ciencia FicciÃ³n"
+    }
+  },
+  {
+    "model": "movie.movie",
+    "fields": {
+      "title": "El Rey LeÃ³n",
+      "description": "El joven leÃ³n Simba busca su destino en la sabana africana.",
+      "image": "lionking.jpg",
+      "url": "",
+      "year": 1994,
+      "genre": "AnimaciÃ³n"
+    }
+  }
+]

@@ -1,0 +1,7 @@
+from django.shortcuts import render
+from .models import News
+
+def news_list(request):
+    noticias = News.objects.all().order_by('-date')  # ordenadas por fecha
+    return render(request, 'news/news.html', {'noticias': noticias})
+

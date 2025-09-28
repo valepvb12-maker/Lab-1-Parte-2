@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Shrek",
+    "description": "Un ogro verde vive aventuras con un burro parlante.",
+    "genre": "Animación",
+    "year": 2001
+  },
+  {
+    "title": "Ralph",
+    "description": "Ralph, un villano de videojuegos, sueña con ser un héroe.",
+    "genre": "Animación",
+    "year": 2012
+  },
+  {
+    "title": "Campanita",
+    "description": "La curiosa hada Campanita descubre sus talentos y vive aventuras.",
+    "genre": "Animación",
+    "year": 2008
+  },
+  {
+    "title": "Toy Story",
+    "description": "Los juguetes de Andy cobran vida cuando no los ve.",
+    "genre": "Animación",
+    "year": 1995
+  },
+  {
+    "title": "Frozen",
+    "description": "Dos hermanas enfrentan el poder del hielo y descubren el amor verdadero.",
+    "genre": "Animación",
+    "year": 2013
+  },
+  {
+    "title": "Avengers",
+    "description": "Un grupo de superhéroes se une para salvar la Tierra.",
+    "genre": "Acción",
+    "year": 2012
+  },
+  {
+    "title": "Harry Potter",
+    "description": "Un niño mago vive aventuras en Hogwarts.",
+    "genre": "Fantasía",
+    "year": 2001
+  },
+  {
+    "title": "Titanic",
+    "description": "Una historia de amor a bordo de un barco condenado.",
+    "genre": "Romance",
+    "year": 1997
+  },
+  {
+    "title": "Jurassic Park",
+    "description": "Un parque con dinosaurios clonados se sale de control.",
+    "genre": "Ciencia Ficción",
+    "year": 1993
+  },
+  {
+    "title": "El Rey León",
+    "description": "El joven león Simba busca su destino en la sabana africana.",
+    "genre": "Animación",
+    "year": 1994
+  }
+]

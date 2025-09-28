@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+
+  {% if email %}
+    <!-- Si ya enviaste el formulario, mostramos el mensaje -->
+    <h2>Added {{ email }} to mailing list</h2>
+    <a href="{% url 'home' %}" class="btn btn-secondary mt-3">Home</a>
+  {% else %}
+    <!-- Si todavía no has enviado, mostramos el formulario -->
+    <h2 class="mb-3">Join our mailing list:</h2>
+    <form method="post">
+      {% csrf_token %}
+      <div class="mb-3">
+        <label for="email" class="form-label">Enter your email:</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="you@example.com" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign Up</button>
+    </form>
+  {% endif %}
+
+</div>
+{% endblock %}
+

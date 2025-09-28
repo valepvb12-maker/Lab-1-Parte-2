@@ -1,0 +1,26 @@
+﻿{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+  <h2 class="mb-4">Noticias</h2>
+
+  {% for n in noticias %}
+  <div class="card mb-3" style="max-width: 100%;">
+    <div class="row g-0">
+      <div class="col-md-4 d-flex align-items-center justify-content-center bg-light">
+        <img src="https://via.placeholder.com/300x200" class="img-fluid rounded-start" alt="noticia">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ n.headline }}</h5>
+          <p class="card-text">{{ n.body }}</p>
+          <p class="card-text"><small class="text-muted">{{ n.date }}</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% empty %}
+    <p>No hay noticias.</p>
+  {% endfor %}
+</div>
+{% endblock %}
